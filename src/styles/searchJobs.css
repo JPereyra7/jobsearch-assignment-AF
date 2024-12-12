@@ -1,0 +1,30 @@
+.searchContainer {
+    padding-left: var(--digi--padding--medium);
+    padding-right: var(--digi--padding--medium);
+  }
+
+.wrapperSearch > div {
+    background-color: var( --digi--color--background--inverted-5);  
+}
+
+.sortingMenu {
+    padding: var(--digi--padding--medium);
+}
+
+.breadcrumb > nav {
+  margin-bottom: var(--digi--margin--medium);
+}
+
+@media only screen and (min-width: 576px) {
+    .searchContainer {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    
+      .wrapperSearch > div {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+}

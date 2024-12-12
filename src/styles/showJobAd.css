@@ -1,0 +1,57 @@
+.jobContainer > div {
+  flex-direction: row;
+  padding-left: var(--digi--padding--large) !important;
+  padding-right: var(--digi--padding--large) !important;
+  border-bottom: var(--digi--border-width--secondary) var(--digi--border-style--primary) var( --digi--color--border--primary);
+}
+
+.headlineText {
+  &:hover{
+    color: var(--digi--color--background--inverted-1);
+    text-decoration: var(--digi--typography--link--text-decoration--mobile) var(--digi--color--background--inverted-1);
+    cursor: pointer;
+  }
+}
+
+.workingHoursText {
+  background-color: var(--digi--color--background--inverted-5);
+  padding: var(--digi--padding--smaller);
+  border-radius: var(--digi--border-radius--secondary);
+  font-weight: var(--digi--typography--label-description--font-weight--mobile);
+}
+
+.cityText {
+  margin-bottom: var(--digi--margin--medium);
+}
+
+.publishedText {
+  color: var(--digi--color--text--neutral);
+  margin-top: var(--digi--margin--medium);
+}
+
+
+.publishedAndIconContainer{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+  justify-content: space-between;
+
+}
+
+.bookmarkIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.faRegBookmark {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 576px) {
+  .jobContainer > div  {
+    border: var(--digi--border-width--secondary) var(--digi--border-style--primary) var( --digi--color--border--primary);
+  }
+}
+

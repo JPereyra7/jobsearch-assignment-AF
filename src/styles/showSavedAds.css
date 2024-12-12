@@ -1,0 +1,44 @@
+.savedAdsContainer  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.noJobsText > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+  height: 60vh;
+}
+
+.noJobsText > div > digi-button > button {
+  margin-top: var(--digi--margin--medium);
+}
+
+.breadcrumbContainer {
+  padding-left: var(--digi--padding--large);
+  margin-bottom: var(--digi--margin--medium);
+  margin-top: var(--digi--margin--largest);
+}
+
+.savedH1 {
+  padding-left: var(--digi--padding--large);
+}
+  
+@media only screen and (min-width: 576px) {
+  .savedAdsContainer {
+    gap: 1rem;
+    border-top: none;
+  }
+
+  .breadcrumbContainer {
+    padding-left: 0;
+  }
+  
+  .savedH1 {
+    padding-left: 0;
+  }
+  
+}

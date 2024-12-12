@@ -1,0 +1,49 @@
+.textContainer > div {
+    background-color: var( --digi--color--background--inverted-5);
+    padding-left: var(--digi--padding--largest)!important;
+    padding-right: var(--digi--padding--largest) !important;
+}
+
+.imgContainer {
+    display: none;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+    padding-left: var(--digi--padding--medium) !important;
+    padding-right: var(--digi--padding--medium) !important;
+}
+
+.text {
+    margin-bottom: var(--digi--margin--medium);
+}
+
+@media only screen and (min-width: 576px) {
+    .textContainer > div {
+        background-color: var( --digi--color--background--inverted-5);  
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container > div {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .imgContainer {
+        display: block;
+    }
+
+    .textContainer > div {
+        background-color: var( --digi--color--background--inverted-5);  
+     }
+     
+}
+ 

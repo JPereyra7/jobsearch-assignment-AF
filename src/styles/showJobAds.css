@@ -1,0 +1,11 @@
+.resultWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 576px) {
+  .resultWrapper {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,53 @@
+.detailsContainer > div {
+  padding-left: var(--digi--padding--large) !important;
+  padding-right: var(--digi--padding--large) !important;
+}
+
+.jobDetailsContainer > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.labelContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 1rem;
+}
+
+.label {
+  background-color: var(--digi--color--border--primary);
+  padding: var(--digi--padding--smaller);
+  border-radius: var(--digi--border-radius--secondary);
+}
+
+.aboutContainer > div {
+  padding-left: 0 !important;
+}
+
+.employeerLogo > host > div {
+  margin-bottom: var(--digi--margin--medium);
+}
+
+@media only screen and (min-width: 576px) {
+  .detailsContainer > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .employerContainer > div {
+    padding-left: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .detailsContainer {
+    width: 50%;
+  }
+
+  .test > div {
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.wrapper > div {
+    background-color: var(--digi--color--border--primary);  
+}
+
+.wrapper form {
+    padding-left: var(--digi--padding--medium);
+    padding-right: var(--digi--padding--medium);
+}
+
+
+.buttonWrapper > div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.fnameInput > div {
+    margin-top: var(--digi--margin--medium);
+}
+
+.deadlineText {
+    margin-top: var(--digi--margin--medium);
+    text-decoration: var(--digi--typography--link--text-decoration--mobile) var(--digi--color--background--inverted-1) ;
+}

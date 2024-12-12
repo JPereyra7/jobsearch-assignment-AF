@@ -1,0 +1,29 @@
+@import '@digi/arbetsformedlingen/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.css';
+@import '@digi/arbetsformedlingen/dist/digi-arbetsformedlingen/fonts/src/fonts.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --digi--margin--text-small: 0.3rem;
+  --digi--container-gutter--base: 0;
+  --digi--color--background--inverted-1: #5A7D7C;
+  --digi--color--background--inverted-6: #7EA0A0;
+  --digi--color--border--informative: #7EA0A0 ;
+  --digi--color--border--secondary: #5A7D7C;
+  --digi--color--text--link: #333333;
+  --digi--color--text--link-hover: #333333bc; 
+  --digi--color--border--tertiary: #7EA0A0;
+  --digi--color--text--secondary: #333333;
+  --digi--color--background--inverted-5: #DCE5E5;
+  --digi--color--border--inverted-2: #5A7D7C;
+  --digi--color--border--primary: #DCE5E5;
+ 
+  --digi--icon--width: 0.1rem ;
+}
+
+

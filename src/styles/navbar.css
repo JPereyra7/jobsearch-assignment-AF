@@ -1,0 +1,52 @@
+.logo {
+  max-width: 60%;
+  margin-top: var(--digi--padding--large);
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  margin-left: var(--digi--padding--smaller);
+  margin-right: var(--digi--padding--smaller);
+}
+
+.iconContainer {
+  margin-top: 0.3rem;
+  display: flex;
+  gap: 0.7rem;
+}
+
+span {
+  text-decoration: none;
+}
+
+.hamburgerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburgerMenu:hover {
+  cursor: pointer;
+}
+
+.bookmarkIcon:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 576px) {
+  .hamburgerMenu {
+    margin-right: var(--digi--padding--largest-2);
+  }
+
+  .logo {
+    margin-bottom: var(--digi--padding--medium);
+  }
+}
